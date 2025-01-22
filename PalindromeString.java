@@ -1,18 +1,5 @@
 public class PalindromeString {
-    // public static void main(String[] args) {
-    //     String str = "madam";
-    //     String originalStr = str;
-    //     String reversedStr = "";
-
-    //     for (int i = str.length() - 1; i >= 0; i--) {
-    //         reversedStr += str.charAt(i);
-    //     }
-
-    //     if (originalStr.equals(reversedStr)) {
-    //         System.out.println(originalStr + " is a palindrome.");
-    //     } else {
-    //         System.out.println(originalStr + " is not a palindrome.");
-    //     }
+ 
     // }
     public static void main(String arg[]){
         String Str = "nayan";
@@ -32,3 +19,26 @@ public class PalindromeString {
     
     }
 }
+
+// public class test {
+//     public static void main(String arg[]){
+//         String Str = "nayan";
+//         int j = 0;
+//         boolean flag = true;
+//         for(int i=Str.length()-1;i>=0;i--){
+//             if(Str.charAt(i) != Str.charAt(j)){
+//                 flag = false;
+//                 break;
+//             }
+//             j++;
+//         }
+
+//         if(flag){
+//             System.out.println("String is palindrome");
+//         }
+//         else{
+//             System.out.println("String is not palindrome");
+//         }
+//     }
+
+
